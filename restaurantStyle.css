@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+a {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px
+}
+th {
+    font-size: larger; 
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: darkgreen;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:active {
+    text-decoration: none;
+}

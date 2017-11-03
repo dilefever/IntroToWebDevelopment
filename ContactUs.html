@@ -1,0 +1,82 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <link href="restaurantStyle.css"
+            rel="stylesheet"
+            type="text/css"/>
+        <style>
+            label {
+            font-weight:bold;
+            display: inline-block;
+            margin-right: 20px;
+            margin-left: 20px  
+        
+            }
+            tr { 
+                text-align: left; 
+            }
+
+
+        </style>
+
+            <h1>LeFever's River Grill</h1>
+            
+        </head>
+        <hr>
+        <body>
+<a href="restaurant Site.html"/>Home</a><a href="Menu.html"/>Menu</a><a href="contactus.html"/>Contact Us</a>
+        <hr>
+        
+    <body>
+        <table>
+        <form action="#" method="post">
+
+        <tr>
+            <td><label id="NameLabel" for="Name">Name: </label></td>
+            <td><input id="Name" name="Name" type="TextType"/></td>
+        </tr>
+        <tr>
+            <td><label id="EmailLabel" for="Email"> Email: </label></td>
+            <td><input id="Email" name="Email" type="TextType"/></td>
+        </tr>
+        <tr>
+            <td><label id="PhoneLabel" for="Phone"> Phone: </label></td>
+            <td><input id="Phone" name="Phone" type="TextType"/></td>
+        </tr>
+        <tr>
+            <td><label>Reason for Inquiry:</label></td>
+            <td><select name="Reason">
+                <option value="Catering"> Catering </option>
+                <option value="Private Party"> Private Party </option>
+                <option value="Feedback"> Feedback </option>
+                <option value="Other"> Other </option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label id="AdditionInfoLabel" for="Additional Info"> Additional Information: </label></td>
+            <td><textarea id="AdditionalInfo" name="Additional Information"> </textarea></td>
+        </tr>
+        <tr>
+            <td><label>Have you been to the resaurant?</label></td> 
+            <td><input type="radio" name="answer" value="No" checked/> No <input type="radio" name="answer" value="Yes"/>Yes<br/> </td>
+        </tr>
+        <tr>
+           <td><label>Best days to contact you:</label> </td>
+           <td><input type="checkbox" name="M" value="Monday"/> M <input type="checkbox" name="T" value="Tuesday"/> T <input type="checkbox" name="W" value="Wednesday"/> W <input type="checkbox" name="Th" value="Thursday"/> Th <input type="checkbox" name="F" value="Friday"/> F </td>
+           <br/>
+        </tr>  
+        <tr>
+            <td></td>
+            <td><input type="submit" id="submitbutton" value="Send Request"/></td>
+        </tr>
+        </table>
+        </form>
+        
+           <br/>
+                <hr>
+                <footer>2291 Riverfront PKWY, Cuyahoga Falls, OH 44221
+                <br/>
+                (555)555-5555
+            </footer>
+    </body>
+    </html>
